@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <body>
-        <h2>darren van der velde</h2>
+        <h2>daysiders</h2>
       </body>
     </div>
   );
