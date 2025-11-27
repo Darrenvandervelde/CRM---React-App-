@@ -1,12 +1,14 @@
-import './App.css';
+  import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <body>
-        <h2>daysiders</h2>
-      </body>
-    </div>
-  );
-}
-export default App;
+  function App() {
+
+    function redirect() {
+      //redirect to the dashboard code.
+      window.location.href = "./pages/dasboard.jsx";
+    }
+    redirect()
+    return (
+      <div></div>
+    );
+  }
+  export default App;
