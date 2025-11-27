@@ -5,7 +5,7 @@ This app helps businesses manage customer data, track interactions, and streamli
 
 ---
 
-## 🚀 Features
+## Features
 - **User Authentication**: Secure login and registration system.
 - **Dashboard**: Overview of customer activity, tasks, and KPIs.
 - **Customer Management**: Add, edit, and delete customer records.
@@ -15,7 +15,7 @@ This app helps businesses manage customer data, track interactions, and streamli
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Frontend**: React, React Router, Context API / Redux
 - **UI Frameworks**: Material-UI / TailwindCSS
 - **Backend (optional)**: Node.js, Express.js
@@ -24,7 +24,7 @@ This app helps businesses manage customer data, track interactions, and streamli
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 _Add screenshots of your app here (stored in `/images` folder):_
 
 ![CRM Dashboard](images/crm-dashboard.png)
@@ -32,7 +32,7 @@ _Add screenshots of your app here (stored in `/images` folder):_
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 Clone the repository and install dependencies:
 
 ```bash
