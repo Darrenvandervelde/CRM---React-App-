@@ -1,14 +1,14 @@
-  import './App.css';
+import React from 'react';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Dashboard from './dashboard';
 
-  function App() {
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Navigate to="/dashboard" />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+    </Routes>
+  );
+}
 
-    function redirect() {
-      //redirect to the dashboard code.
-      window.location.href = "./pages/dasboard.jsx";
-    }
-    redirect()
-    return (
-      <div></div>
-    );
-  }
-  export default App;
+export default App;
