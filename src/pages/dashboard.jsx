@@ -7,7 +7,7 @@ function Dashboard() {
                 hey
             </h1>
         </div>
-    )
+    );
 }
 
 export default Dashboard;
