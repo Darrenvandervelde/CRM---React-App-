@@ -1,13 +1,15 @@
-import React from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
-import Dashboard from './pages/dashboard';
+import "./App.css";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Navigate to="/dashboard" />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-    </Routes>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Categories</a></li>
+        <li><a href="">Images</a></li>
+        <li><a href="">Books</a></li>
+      </ul>
+    </nav>
   );
 }
 
